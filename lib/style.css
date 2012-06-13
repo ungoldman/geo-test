@@ -1,0 +1,22 @@
+html, body {
+  font: normal 14px/1 sans-serif;
+}
+button {
+  display: block;
+  padding: 10px;
+  margin: 5px auto;
+}
+
+.result {
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+.result.pass {
+  background: green;
+  color: white;
+}
+.result.fail {
+  background: red;
+  color: white;
+}

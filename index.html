@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Browser Geolocation Test</title>
+  <link rel="stylesheet" href="lib/style.css">
+</head>
+<body>
+  <h1>HTML5 Browser Geolocation Test</h1>
+
+  <button class="test" id="existence">Run Existence Test</button>
+  <button class="test" id="current">Run getCurrentPosition Test</button>
+  <button class="test" id="watch">Run watchPosition Test</button>
+
+  <section id="geolocation">
+    <h1>geolocation</h1>
+    <p class="result"></p>
+  </section>
+
+  <section id="getCurrentPosition">
+    <h1>getCurrentPosition</h1>
+    <p class="result"></p>
+  </section>
+
+  <section id="watchPosition">
+    <h1>watchPosition</h1>
+    <p class="result"></p>
+  </section>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="lib/geo-test.js"></script>
+</body>
+</html>
